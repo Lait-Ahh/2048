@@ -1,0 +1,91 @@
+h1, p {
+    margin: 0;
+}
+
+.TextBox {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.GameBoard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    background-color: #BBADA0;
+    border-radius: 15px;
+}
+
+.GameBoard__Line {
+    display: flex;
+}
+
+.GameBoard__Cell {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    background-color: #CDC1B4;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.GameBoard__Cell[number="2"] {
+    background-color: #EEE4DA;
+    font-size: 40px;
+}
+
+.GameBoard__Cell[number="4"] {
+    background-color: #EDE0C8;
+    font-size: 40px;
+}
+
+.GameBoard__Cell[number="8"] {
+    background-color: #F2B179;
+    font-size: 40px;
+}
+
+.GameBoard__Cell[number="16"] {
+    background-color: #F59563;
+    font-size: 35px;
+}
+
+.GameBoard__Cell[number="32"] {
+    background-color: #F67C5F;
+    font-size: 35px;
+}
+
+.GameBoard__Cell[number="64"] {
+    background-color: #F65E3B;
+    font-size: 35px;
+}
+
+.GameBoard__Cell[number="128"] {
+    background-color: #EDCF72;
+    font-size: 30px;
+}
+
+.GameBoard__Cell[number="256"] {
+    background-color: #EDC850;
+    font-size: 30px;
+}
+
+.GameBoard__Cell[number="512"] {
+    background-color: #EDC850;
+    font-size: 30px;
+}
+
+.GameBoard__Cell[number="1024"] {
+    background-color: #EDC53F;
+    font-size: 25px;
+}
+
+.GameBoard__Cell[number="2048"] {
+    background-color: #EDC22E;
+    font-size: 25px;
+}
