@@ -33,6 +33,7 @@ h1, p {
     justify-content: center;
     align-items: center;
     font-weight: 700;
+    user-select: none;
 }
 
 .GameBoard__Cell[number="2"] {
